@@ -3,27 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* @media screen and (max-width:800px) {
+    .navbar-expand-lg .navbar-collapse {
+
+    }
+} */
+
 .ft ,.ft:visited{
     font-size: 40px;
     margin-left: 60px;
     letter-spacing: 2px; 
     color: aliceblue;
 }
+button.navbar-toggler:focus{
+    /* outline-style:none; */
+    box-shadow: none;
+
+}
+
+i{
+    font-size: 50px;
+    color: azure;
+    
+}
 
 .navback{
-    background-color: black;
+    background-color: rgb(133, 130, 130);
     font-size: xx-large;
    
 }
-.nav-link{
-    margin-left: 40px;
-    padding: 0;
-}
+
 .lik a{
     padding: 2px;
     color: white;
     position: relative;
     text-decoration: none;
+    margin-left:10px;
     
 }
 .lik a:visited{
@@ -48,8 +64,6 @@
     background-color: rgb(138, 185, 28);
     bottom: -3px;
     transition:transform 0.7s ease-in-out;
-   
-   
 }
 
 
